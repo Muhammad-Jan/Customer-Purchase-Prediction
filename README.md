@@ -172,6 +172,21 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+---
+
+# 🔗 Project Files
+
+You can explore each project component directly from the links below.
+
+| Component | Description | Link |
+|-----------|-------------|------|
+| 🗂️ Database | Historical training dataset and prediction dataset | [Database](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/tree/main/Database) |
+| 📄 customer_data.csv | Historical customer data used for model training | [View File](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/Database/customer_data.csv) |
+| 📄 new_customers.csv | Sample customer records for testing predictions | [View File](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/Database/new_customers.csv) |
+| 🤖 Trained Model | Serialized Scikit-Learn pipeline containing preprocessing and the trained classifier | [customer_purchase_model.joblib](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/models/customer_purchase_model.joblib) |
+| 📓 Jupyter Notebook | Complete machine learning workflow including preprocessing, model training, GridSearchCV, evaluation, and model saving | [Machine_Learning_Project.ipynb](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/notebooks/Machine_Learning_Project.ipynb) |
+| 🚀 Streamlit Application | Interactive web application for customer purchase prediction | [app.py](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/app.py) |
+| 🖼️ Application Screenshot | Preview of the Streamlit application interface | [Customer_Purchase_prediction.png](https://github.com/Muhammad-Jan/Customer-Purchase-Prediction/blob/main/images/Customer_Purchase_prediction.png) |
 
 ---
 
